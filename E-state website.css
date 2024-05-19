@@ -1,11 +1,62 @@
 *{
-    margin: 0;
-    padding: 0;
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background-color: #eeee;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: #eeee;
+    padding: 17px;
+    box-shadow: 0px 2px 2px 2px rgb(153, 144, 144);
+}
+ul{
+    margin-right: 45px;
+    margin-top: 7px;
+}
+nav .logo{
+    margin-left: 22px;
+    font-size: 24px;
+}
+
+nav ul li{
+    list-style: none;
+}
+ul li a{
+    margin: 22px;
+    font-size: 20px;
+}
+ul li i{
+    font-size: 22px;
+}
+ul li #home{
+    color: rgb(84, 177, 177);
+}
+ul li a:hover{
+    border-bottom: 2px solid red;
+    cursor: pointer;
+}
+ul li i:hover{
+    color: grey;
+    cursor: pointer;
+
+}
+.body{
+    display: flex;
+    align-items: center;
     
 }
-.container{
-    display: flex;
-    text-transform: uppercase;
-    align-items: center;
+.left{
+    margin-top: 1px;
+    padding-left: 30px;
 
+}
+.left h1{
+    background-position: fixed;
+    color:blue;
+    text-decoration: underline;
+    text-transform: uppercase;
 }
