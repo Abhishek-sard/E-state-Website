@@ -55,8 +55,14 @@ ul li i:hover{
 
 }
 .left h1{
-    background-position: fixed;
-    color:blue;
-    text-decoration: underline;
-    text-transform: uppercase;
+    color: darkseagreen;
+}
+.right img{
+    font-size: large;
+    border-image: fill;
+    height: 650px;
+    width: 700px;
+    margin-top: 10px;
+    padding-right: 5%;
+    margin-left: 45px;
 }
