@@ -57,6 +57,9 @@ ul li i:hover{
 .left h1{
     color: darkseagreen;
 }
+.left h1 span{
+    color: rgb(0, 229, 255);
+}
 .right img{
     font-size: large;
     border-image: fill;
@@ -66,3 +69,15 @@ ul li i:hover{
     padding-right: 5%;
     margin-left: 45px;
 }
+.middle-page{
+    margin-top: 35px;
+
+}
+.heading h1{
+    color: cadetblue;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+
+}
+
